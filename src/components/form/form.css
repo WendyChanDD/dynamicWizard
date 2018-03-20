@@ -1,0 +1,43 @@
+.formRow{
+	height: 3.75rem;
+	font-size: 1.25rem;
+	color: #ccc;
+	line-height: 150%;
+	display: table-row;
+	vertical-align: bottom;
+}
+.formLabel{
+	text-align: right;
+	display: table-cell;
+	padding-right: 0.5rem;
+	padding-left: 3rem;
+	width: 50%;
+	color: #4c4545;
+}
+.formInput{
+	text-align: left;
+	font-size: 1.25rem;
+	display: table-cell;
+	border-width: 1px;
+	color: #4c4545;
+}
+.w100 {
+	width: 100%;
+}
+.w50 {
+	width: 50%;
+}
+.h2rem {
+	height: 2rem;
+}
+.button {
+	min-width: 6rem;
+	background-color: #3276FF;
+}
+.button.disable{
+	background-color:  #f1ecec;
+}
+
+.warning {
+	color: red;
+}

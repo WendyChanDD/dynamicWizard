@@ -1,0 +1,38 @@
+{
+    'Intro': [
+		{
+			'key': 'fullName',
+			'name': 'Full Name',
+			'type': 'text50'
+		},
+		{
+			'key': 'alias',
+			'name': 'Alias',
+			'type': 'text30'
+		}
+	],
+    'Select': [
+		{
+			'key': 'phone',
+			'name': 'Phone NO',
+			'type': 'number'
+		},
+		{
+			'key': 'email',
+			'name': 'Email',
+			'type': 'email'
+		}
+	],
+    'Payment Info': [
+		{
+			'key': 'creditCard',
+			'name': 'Credit Card NO',
+			'type': 'number'
+		},
+		{
+			'key': 'paypalAccount',
+			'name': 'Paypal Email',
+			'type': 'email'
+		}
+	]
+}

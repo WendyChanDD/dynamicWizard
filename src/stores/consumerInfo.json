@@ -1,0 +1,59 @@
+[
+    {
+        "id": "intro",
+        "name": "Intro",
+        "editable": true,
+        "fields": [
+            {
+                "name": "fullName",
+                "type": "text",
+                "text": "Full Name",
+                "value": ""
+            },
+            {
+                "name": "alias",
+                "type": "text",
+                "text": "Alias",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "id": "select",
+        "name": "Select",
+        "editable": true,
+        "fields": [
+            {
+                "name": "phone",
+                "type": "phone",
+                "text": "Phone",
+                "value": ""
+            },
+            {
+                "name": "email",
+                "type": "email",
+                "text": "Email",
+                "value": ""
+            }
+        ]
+    },
+    {
+        "id": "payment",
+        "name": "Payment Info",
+        "editable": true,
+        "fields": [
+            {
+                "name": "creditCard",
+                "type": "text",
+                "text": "Credit Card NO",
+                "value": ""
+            },
+            {
+                "name": "paypalEmail",
+                "type": "email",
+                "text": "Paypal Email",
+                "value": ""
+            }
+        ]
+    }
+]

@@ -1,0 +1,90 @@
+.wizardBg {
+  padding: 0 0;
+  background: #f0f2f52e;
+  padding-bottom: 20px;
+}
+.wizardNav {
+  display: table;
+  margin: 0 auto;
+  width: 100%;
+  min-height: 4rem;
+  text-align: center;
+  border: 1px solid #eee;
+  background: #fff;
+  font-size: 1rem;
+}
+.tabItem {
+  min-height: 3.75rem;
+  border-right: 1px solid #eee;
+  font-weight: bold;
+  color: #ccc;
+  line-height: 3.75rem;
+  display: table-cell;
+  vertical-align: middle;
+}
+.tabItem.last-child{
+  border-right: 0 solid #ddd;
+}
+.tabItem.done{
+  color: #222222;
+  background-color: #fff;
+}
+.tabItem.selected{
+  color: #222222;
+  background-color: #3276FF;
+}
+.tabItem .tabItemCon{
+  position: relative;
+  padding-right: 1rem;
+  text-align: center;
+}
+.tabItem .tabItemIcon{
+  position: absolute;
+  right: 1rem;
+  top: 0;
+}
+.normalForm {
+  width: 100%;
+  min-height: 20rem;
+  text-align: center;
+  margin: auto;
+  padding-top: 3rem;
+  display: table;
+  border: 1px solid #eee;
+}
+
+.hidden{
+  display: none;
+}
+.tabItem .tabItemIcon .doneImg{
+  background: #fff;
+  border-redius: 50%;
+  width: 2rem;
+  min-height:2rem;
+  display: inline-block;
+  line-height: 2rem;
+  text-align: center;
+}
+.w25 {
+  width: 25%;
+}
+.tabTitleWrap{
+  width: 40rem;
+  min-height: 3rem;
+}
+.tabTitle{
+  width: 10rem;
+  min-height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 1.5rem;
+  font-size-adjust: inherit;
+  font-family: Arial;
+  color: #999999;
+  background-color: #CCCCCC;
+  display: inline-block;
+}
+.tabItemWrap{
+  width: 100%;
+  min-height: 25rem;
+}
